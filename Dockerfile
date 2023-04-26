@@ -10,6 +10,6 @@ run git clone https://github.com/XniceCraft/ffmpeg-colab --depth 1
 RUN chmod +x ./ffmpeg-colab/install
 run ./ffmpeg-colab/install
 
-copy ..
+copy . .
 RUN pip3 install -r requirements.txt
 CMD ["bash","run.sh"]
