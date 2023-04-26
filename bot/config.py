@@ -18,7 +18,7 @@ from decouple import config
 try:
     APP_ID = config("APP_ID", default=15681388, cast=int)
     API_HASH = config("API_HASH", default="446b56944f74f6b7688175d48cdfa881")
-    BOT_TOKEN = "6249960795:AAHBC233MxzMDnrtTiBP8FcmfltympbBpiE"
+    BOT_TOKEN = "6130252508:AAF3L43Ry6ttkEQKtLAzQ9u23kPvefLbHWk"
     DEV = 5074446156
     OWNER = config("OWNER", default="5074446156")
     FFMPEG = config(
